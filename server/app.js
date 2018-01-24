@@ -11,6 +11,6 @@ var io = socketIO(server);
 
 app.use(express.static(publicPath));
 
-server.listen(port, () => {
-  console.log(`Server is up on port XPTO ${port}`);
-});
+
+
+module.exports = app;
