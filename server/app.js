@@ -11,6 +11,4 @@ var io = socketIO(server);
 
 app.use(express.static(publicPath));
 
-
-
 module.exports = app;
